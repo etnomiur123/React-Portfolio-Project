@@ -6,10 +6,12 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 75%;
 }
 
 body {
     background: #1b1b1b;
+    font-family: 'Inter', sans-serif;
 }
 
 button {
@@ -21,6 +23,7 @@ button {
     background: transparent;
     color: white;
     transition: all 0.5s ease;
+    font-family: 'Inter', sans-serif;
     &:hover {
         background-color: #23d997;
         color: white;
@@ -36,9 +39,11 @@ h3 {
     color: white;
 }
 h4 {
+    font-size: 2rem;
     font-weight: bold;
 }
 span {
+    font-size: inherit;
     font-weight: bold;
     color: #23d997; 
 }
